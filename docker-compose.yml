@@ -1,0 +1,7 @@
+mongodb:
+  image: tutum/mongodb:3.2
+  ports:
+    - 27017:27017
+  environment:
+    - MONGODB_DATABASE="apitest"
+    - AUTH=no
